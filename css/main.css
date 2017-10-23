@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  padding: 20em;
+  padding: 0;
   background-color: #eee9de;
   font-family: sans-serif;
   line-height: 1.5;
@@ -11,18 +11,64 @@ html {
   box-sizing: inherit;
 }
 
-section img {
-  display: inline-block;
-  width: inherit;
-  max-width: 20em;
-  vertical-align: middle;
-}
-
 body {
   margin: 0;
-  background-color: #eee9de;
+  color: #333;
   text-align: center;
   font-weight: normal;
   font-style: normal;
   font-family: Lato, sans-serif;
+
+}
+
+section div {
+  margin: 0;
+  padding: 0 2em;
+  color: #333;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+}
+
+section img {
+  display: inline-block;
+  width: inherit;
+  max-width: 18em;
+  vertical-align: middle;
+}
+
+img {
+  padding-top: 3em;
+  display: block;
+  width: 100%;
+  max-width: 18em;
+
+}
+
+p {
+  margin: 0;
+  padding: 0 2em 2em;
+  color: #333;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  border: 3px solid #666;
+  padding: .05em .5em;
+  border-radius: 1em;
+  text-align: center;
+  background-color: #eee9de;
+  text-decoration: none;
+  margin-bottom: .3em;
+}
+
+button:hover {
+  background-color: #666;
+  margin: 0;
+  list-style-type: none;
 }
