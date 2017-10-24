@@ -1,96 +1,69 @@
 html {
   box-sizing: border-box;
-  padding: 3em;
-  background-color: #eee9de;
-  font-family: sans-serif;
   line-height: 1.5;
-
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+title {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 body {
   margin: 0;
-  color: #333;
-  text-align: center;
-  font-weight: normal;
-  font-style: normal;
-  font-family: Lato, sans-serif;
-
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  text-align: left;
-  font-weight: bold;
-  font-style: normal;
-  font-family: Lato, sans-serif;
-}
-
-section div {
-  margin: 0;
-  padding: 0 1.5em;
-  color: #333;
-  text-align: center;
-  font-weight: normal;
-  font-style: normal;
-  font-family: Lato, sans-serif;
-}
-
-section img {
-  display: inline-block;
-  width: inherit;
-  max-width: 18em;
-  vertical-align: middle;
 }
 
 img {
-  padding: 0 1em 2em;
-  display: block;
   width: 100%;
-  max-width: 18em;
-
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  text-align: left;
-  font-weight: normal;
-  font-style: normal;
-  font-family: Lato, sans-serif;
-}
-
-h2 {
+  max-width: 25em;
   display: block;
-  margin: 0;
-  padding: .5em;
-  color: #333;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: center;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
   text-align: left;
-  font-size: 1em;
-  font-weight: bold;
-  font-style: normal;
-  font-family: Lato, sans-serif;
+}
+
+article {
+  padding: 2.9em 1em;
+  display: block;
+  background-color: #eee9de;
 }
 
 .btn {
   display: inline-block;
-  border: 3px solid #666;
-  padding: 0;
-  border-radius: .5em;
-  text-align: left;
-  background-color: #eee9de;
+  padding: .5em .75em;
+  border-radius: 8px;
+  border-width: 3px;
   text-decoration: none;
-  margin-bottom: 3em;
 }
 
-button:hover {
+.btn-ghost {
+  background-color: #eee9de;
+  color: #333;
+  border: solid 3px #333;
+}
+
+.btn-ghost:hover {
   background-color: #666;
+  color: #eee9de;
+}
+
+section {
   margin: 0;
-  list-style-type: none;
 }
