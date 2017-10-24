@@ -39,7 +39,7 @@ div {
   text-align: left;
 }
 
-article {
+section {
   padding: 2.9em 1em;
   display: block;
   background-color: #eee9de;
@@ -62,8 +62,4 @@ article {
 .btn-ghost:hover {
   background-color: #666;
   color: #eee9de;
-}
-
-section {
-  margin: 0;
 }
